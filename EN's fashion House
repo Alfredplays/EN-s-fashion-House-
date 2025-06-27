@@ -1,0 +1,80 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>En's Fashion House</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff8f0;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #2b2b2b;
+      color: #ffffff;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #ffe4b5;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+    }
+    nav a {
+      text-decoration: none;
+      color: #000;
+      font-weight: bold;
+    }
+    section {
+      padding: 20px;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .contact, .order {
+      background-color: #f3f3f3;
+      padding: 15px;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+    footer {
+      background-color: #2b2b2b;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>En's Fashion House</h1>
+    <p>Designed by Mrs. Gifty — Unique Styles for Every Queen and King</p>
+  </header>  <nav>
+    <a href="#gallery">Gallery</a>
+    <a href="#order">Order</a>
+    <a href="#contact">Contact</a>
+  </nav>  <section id="gallery">
+    <h2>Latest Styles</h2>
+    <div class="gallery">
+      <img src="https://via.placeholder.com/200x250?text=Style+1" alt="Style 1">
+      <img src="https://via.placeholder.com/200x250?text=Style+2" alt="Style 2">
+      <img src="https://via.placeholder.com/200x250?text=Style+3" alt="Style 3">
+      <img src="https://via.placeholder.com/200x250?text=Shorts" alt="Shorts">
+    </div>
+  </section>  <section id="order">
+    <h2>Place Your Order</h2>
+    <div class="order">
+      <form>
+        <label>Name:<br><input type="text" name="name" required></label><br><br>
+        <label>Style:<br><input type="text" name="style" placeholder="e.g., Style 1" required></label><br><br>
+        <label>Size:<br><input type="text" name="size"></label><br
